@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+body{
+    border: solid 5px rgb(255,255,255);
+    display: flex;
+}
+
+header{
+    border: solid 5px rgb(0,0,255);
+    height:100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+ nav{
+    border: solid 5px rgb(240, 224, 7);
+    height: 90%;
+    width: 99%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 20%;
+ }
+
+picture{
+    border: solid 5px green;
+    height: 90%;
+    width: 20%;
+}
+
+ul{
+    border: solid 5px green;
+    height: 90%;
+    width: 60%;
+    list-style:none;
+    display: flex;
+    flex-direction: row; /* izquierda/derecha */
+    /*align-content:center;*/
+    justify-content:center;
+    gap: 5%;
+}
+
+li{
+    border: solid 5px red;
+    height: 95%;
+    width: 30%;
+}
+
