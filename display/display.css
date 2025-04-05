@@ -14,11 +14,10 @@ body{
 
 header{
     border: solid 5px rgb(0,0,255);
-    height:100px;
+    height:500px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
  }
 
@@ -44,15 +43,16 @@ ul{
     width: 60%;
     list-style:none;
     display: flex;
-    flex-direction: row; /* izquierda/derecha */
-    /*align-content:center;*/
-    justify-content:center;
+   /* flex-direction: row; /* izquierda/derecha */
+    /*align-content:center;
+    justify-content:center;*/
+    flex-wrap: wrap;
     gap: 5%;
 }
 
 li{
     border: solid 5px red;
-    height: 95%;
+    height: 15%;
     width: 30%;
 }
 
