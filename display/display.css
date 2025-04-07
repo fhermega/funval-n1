@@ -3,21 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
 body{
     border: solid 5px rgb(255,255,255);
+    height: 950px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
 }
 
 header{
     border: solid 5px rgb(0,0,255);
-    height:500px;
-    width: 100%;
+    margin-top: 0.3%;
+    height: 12%;
+    width: 99%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
  }
 
@@ -26,6 +34,7 @@ header{
     height: 90%;
     width: 99%;
     display: flex; 
+    flex-direction: row;
     align-items: center; 
     justify-content: center;
     gap: 20%;
@@ -34,7 +43,7 @@ header{
 picture{
     border: solid 5px green;
     height: 90%;
-    width: 20%;
+    width: 18%;
 }
 
 ul{
@@ -43,16 +52,164 @@ ul{
     width: 60%;
     list-style:none;
     display: flex;
-   /* flex-direction: row; /* izquierda/derecha */
-    /*align-content:center;
-    justify-content:center;*/
-    flex-wrap: wrap;
-    gap: 5%;
+    flex-direction: row;
+    align-items: center;    /* ARRIBA a BAJO */
+    justify-content: center;    /*IZQUIERDA a DERECHA */
+    gap: 2%;
 }
 
 li{
     border: solid 5px red;
-    height: 15%;
+    height: 85%;
     width: 30%;
 }
 
+main{
+    border: solid 5px yellow;
+    height: 60%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.contenedor01{
+    border: solid 5px blue;
+    height: 47%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.caja01-01{
+    border: solid 5px green;
+    height: 90%;
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5% ;
+}
+
+.caja01-01-01{
+    border: solid 5px red;
+    height: 40%;
+    width: 40%;
+}
+
+.caja01-01-02{
+    border: solid 5px red;
+    height: 40%;
+    width: 40%;
+}
+
+.caja01-01-03{
+    border: solid 5px red;
+    height: 40%;
+    width: 40%;
+}
+
+.caja01-02{
+    border: solid 5px green;
+    height: 90%;
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja01-02-01{
+    border: solid 5px red;
+    height: 50%;
+    width: 50%;
+}
+
+.contenedor02{
+    border: solid 5px blue;
+    height: 47%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%; 
+}
+
+.caja02-01{
+    border: solid 5px green;
+    height: 90%;
+    width: 47%;  
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    justify-content: center;
+    gap: 30%;
+}
+
+.caja02-01-01{
+    border: solid 5px red;
+    height: 30%;
+    width: 40%;
+    margin-left: 5%;    
+}
+
+.caja02-01-02{
+    border: solid 5px red;
+    height: 30%;
+    width: 90%;
+    margin-left: 5%;    
+}
+
+.caja02-02{
+    border: solid 5px green;
+    height: 90%;
+    width: 47%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.caja02-02-01{
+    border: solid 5px red;
+    height: 50%;
+    width: 30%;
+}
+
+.caja02-02-02{
+    border: solid 5px red;
+    height: 50%;
+    width: 30%;
+}
+
+footer{
+    border: solid 5px blue;
+    height: 20%;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+}
+
+.cajafooter01{
+    border: solid 5px green;
+    height: 90%;
+    width: 25%;
+}
+
+.cajafooter02{
+    border: solid 5px green;
+    height: 90%;
+    width: 25%;
+}
