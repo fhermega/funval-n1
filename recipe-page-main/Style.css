@@ -30,6 +30,13 @@
 
 .box-02 {
     background-color: rgb(255, 255, 255);
-    height: 180px;
-    width: 600px;
+    height: 50px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-03{
+    background-color: blue;
 }
